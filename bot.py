@@ -24,7 +24,7 @@ def greet_user(bot, update):
 
 
 def main():
-    superbot = Updater(settings.API.KEY)
+    superbot = Updater(settings.API_KEY)
     
     logging.info('The bot is running')
 
